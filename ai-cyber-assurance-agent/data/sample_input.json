@@ -1,0 +1,5 @@
+{
+  "control": "Access Control - Multi-Factor Authentication (MFA): All privileged user accounts must be protected with multi-factor authentication to prevent unauthorized access to critical systems.",
+  "requirement": "All privileged users (including Global Administrators, Security Administrators, and Exchange Administrators) must authenticate using multi-factor authentication (MFA) before accessing any critical system or administrative console.",
+  "evidence": "Screenshot of Azure AD Conditional Access policy showing MFA enforcement for the 'Global Administrators' group. The policy is set to 'Require multi-factor authentication' and the status is 'Enabled'. Policy was last modified 3 months ago. No sign-in logs or MFA usage reports have been provided. Coverage for other privileged roles such as Security Administrators and Exchange Administrators is not evidenced."
+}
